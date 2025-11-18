@@ -16,7 +16,7 @@ def load_model():
     global model, feature_names
     
     try:
-        with open('/workspaces/Reservation-Cancellation-Prediction/models/model.pkl', 'rb') as f:
+        with open('models/model.pkl', 'rb') as f:
             model = pickle.load(f)
         
         with open('models/feature_names.pkl', 'rb') as f:
