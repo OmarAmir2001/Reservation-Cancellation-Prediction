@@ -14,3 +14,13 @@ Online hotel reservation platforms have led to increased cancellations and no-sh
 - Model persistence and versioning
 
 ## Project Structure
+reservation-cancellation-predictor/
+├── data/
+│ └── Hotel Reservations.csv
+├── models/
+│ └── model.pkl
+├── notebook.ipynb
+├── train.py
+├── predict.py
+├── requirements.txt
+└── Dockerfile
